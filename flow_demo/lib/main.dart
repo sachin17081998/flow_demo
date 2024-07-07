@@ -1,3 +1,4 @@
+import 'package:flow_demo/basic_layouts.dart';
 import 'package:flow_demo/flow_learning.dart';
 import 'package:flow_demo/parallax_horizontal_list.dart';
 import 'package:flutter/material.dart';
@@ -21,12 +22,7 @@ class MyApp extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              FlowExample(),
-              ExampleParallax(
-                  width: 320,
-                  height: 200,
-                  title: 'Supercars',
-                  subtitle: 'Beast under the hood'),
+              BasicLayouts()
             ],
           ),
         ),
